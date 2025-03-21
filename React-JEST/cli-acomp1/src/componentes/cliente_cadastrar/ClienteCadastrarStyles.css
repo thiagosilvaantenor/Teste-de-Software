@@ -1,0 +1,68 @@
+/* ClienteCadastrarStyles.css */
+.cliente-cadastrar-view {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .cliente-cadastrar-view h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cliente-cadastrar-view form {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #0077b5; /* Cor azul  */
+    color: white;
+    border: 30px;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;/* Adiciona bordas arredondadas */
+    margin-top: 20px;
+    margin-left: 30px; /* Adiciona um espaço da margem do form de 40px */
+  }
+  
+  .button:hover {
+    background-color: #005582; /* Cor azul mais escura para o hover */
+  }
+  .cliente-cadastrar-view form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cliente-cadastrar-view label {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .cliente-cadastrar-view input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+    .cliente-cadastrar-view input[type="submit"] {
+        background-color: #0077b5; /* Cor azul */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+    }  
